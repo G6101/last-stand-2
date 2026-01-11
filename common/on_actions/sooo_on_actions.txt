@@ -1,0 +1,109 @@
+on_actions = {
+    on_startup = {
+        effect = {
+		
+		
+			every_country = { 
+			
+				country_event = sooo.start.event.1 
+
+				if={
+					LIMIT = {
+						NOT = { is_ai = yes }
+					}
+					add_ideas = sooo_player_was_here 
+					add_ideas = peace_training
+				}
+				
+			}
+		  }
+        
+		}
+	on_monthly = {
+		effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+					NOT = {
+						
+						OR = {
+							has_war = yes
+							has_idea = peace_training
+						}
+					}
+				}
+				add_ideas = peace_training
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+					NOT = {
+						
+					
+							has_idea = sooo_player_was_here
+						
+					}
+				}
+				add_ideas = sooo_player_was_here
+			}
+	}
+		}
+		on_weekly = {
+		effect = {
+			if = {
+				limit = { is_ai = no }
+			}
+			add_mastery = {
+				amount = 5
+				track = infantry
+			}
+			add_mastery = {
+				amount = 5
+				track = combat_support
+			}
+			add_mastery = {
+				amount = 5
+				track = armor
+			}
+			add_mastery = {
+				amount = 5
+				track = operations
+			}
+			add_mastery = {
+				amount = 5
+				track = capital_ships
+			}
+			add_mastery = {
+				amount = 5
+				track = carriers
+			}
+			add_mastery = {
+				amount = 5
+				track = screens
+			}
+			add_mastery = {
+				amount = 5
+				track = submarines
+			}
+			add_mastery = {
+				amount = 5
+				track = fighter_aircraft
+			}
+			add_mastery = {
+				amount = 5
+				track = strike_aircraft
+			}
+			add_mastery = {
+				amount = 5
+				track = medium_aircraft
+			}
+			add_mastery = {
+				amount = 5
+				track = heavy_aircraft
+			}
+		}
+	}
+			
+	
+	
+}

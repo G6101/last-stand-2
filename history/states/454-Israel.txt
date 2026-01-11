@@ -7,9 +7,8 @@ state = {
 
 	history = {
 
-		owner = PAL
+		owner = ENG
 		add_core_of = PAL
-		add_core_of = ISR
 
 		buildings = {
 			infrastructure = 3 #was: 5

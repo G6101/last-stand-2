@@ -17,13 +17,13 @@ ideas = {
 				}
 			
 			modifier = {
-				political_power_factor = 0.3
-				production_speed_buildings_factor = 0.3
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.1
 				local_resources_factor = 0.10
-				consumer_goods_factor = 0.10
+				consumer_goods_factor = 0.20
 				min_export = -0.2
 			}
-			cost = 100
+			cost = 200
 			
 			cancel_if_invalid = yes
 			
@@ -46,14 +46,13 @@ ideas = {
 			
 			
 			modifier = {
-				political_power_factor = 0.2
-				production_speed_buildings_factor = 0.2
+				political_power_factor = 0.1
 				local_resources_factor = 0.2
 				consumer_goods_factor = 0.1
 				min_export = -0.1
 				
 			}
-			cost = 100
+			cost = 200
 			cancel_if_invalid = yes
 
 			ai_will_do = {
@@ -79,13 +78,12 @@ ideas = {
 				}
 			
 			modifier = {
-				political_power_factor = -0.2
-				consumer_goods_factor = -0.05
-				production_speed_buildings_factor = 0.1
-				local_resources_factor = 0.3
-				min_export = 0.1
+				consumer_goods_expected_value = 0.05
+				production_speed_buildings_factor = 0.2
+				local_resources_factor = 0.1
+				min_export = 0.2
 			}
-			cost = 100
+			cost = 200
 			cancel_if_invalid = yes
 
 			ai_will_do = {

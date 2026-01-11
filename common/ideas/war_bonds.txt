@@ -15,12 +15,12 @@ ideas = {
 			}
 			
 			modifier = {
-				consumer_goods_factor = -0.10
+				consumer_goods_factor = -0.2
 				political_power_factor = -0.1
-				stability_weekly = -0.003
+				stability_factor = -0.1
 			}
 			
-			cost = 50
+			cost = 150
 			
 			cancel_if_invalid = no
 			
@@ -45,15 +45,14 @@ ideas = {
 				}
 			}
 
-			cost = 50
+			cost = 150
 		
 			modifier = {
-				stability_weekly = -0.001
 				consumer_goods_factor = -0.05
-				political_power_factor = 0.1
+				political_power_factor = 0.15
 			}
 			
-			cost = 50
+			cost = 150
 			
 			cancel_if_invalid = yes
 
@@ -80,12 +79,12 @@ ideas = {
 			}
 			
 			modifier = {
-				political_power_factor = 0.2
-				consumer_goods_factor = 0.05
-				stability_weekly = 0.001
+				political_power_factor = 0.1
+				consumer_goods_factor = 0.15
+				stability_factor = 0.1
 			}
 
-			cost = 50
+			cost = 150
 			
 			cancel_if_invalid = no
 

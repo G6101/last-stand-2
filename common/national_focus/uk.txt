@@ -7103,14 +7103,14 @@ focus_tree = {
 		prerequisite = { focus = uk_australia_focus }
 		available = {
 			any_country = {
-				original_tag = NZL
+				original_tag = AST
 				is_in_faction_with = ROOT
 			}
 		}
 		bypass = {
 			OR = {
-				NZL = { exists = no }
-				NZL = {
+				AST = { exists = no }
+				AST = {
 					custom_trigger_tooltip = {
 						tooltip = construction_effort_tt
 						all_owned_state = {
@@ -7145,7 +7145,7 @@ focus_tree = {
 		complete_tooltip = {
 			random_country = {
 				limit = {
-					original_tag = NZL
+					original_tag = AST
 					is_in_faction_with = ROOT
 				}
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
@@ -7181,7 +7181,7 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			NZL = {
+			AST = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {
 					limit = {

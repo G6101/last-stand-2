@@ -8282,7 +8282,9 @@ focus_tree = {
 				popularity = -0.15
 			}
 			add_war_support = -0.03
+			clr_global_flag = second_italo_ethiopian_war_flag
 		}
+		
 	}
 
 	focus = {
@@ -8332,6 +8334,7 @@ focus_tree = {
 			add_war_support = 0.03
 			add_stability = 0.03
 			add_political_power = 25
+			clr_global_flag = second_italo_ethiopian_war_flag
 		}
 	}
 
@@ -8356,6 +8359,7 @@ focus_tree = {
 			}
 			add_stability = -0.03
 			add_political_power = -25
+			clr_global_flag = second_italo_ethiopian_war_flag
 		}
 	}
 

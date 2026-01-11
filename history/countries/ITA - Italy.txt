@@ -1,6 +1,6 @@
 ﻿capital = 2 # Rome
 
-ETH_set_up_lon_arms_resolution_effect = yes 
+
 
 if = {
 	limit = {
@@ -30,6 +30,11 @@ IF = {
 		set_war_support = 0.8
 	}
 }
+set_autonomy = {
+		target = AOI
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
 
 add_ideas = {
 	vittorio_emanuele
@@ -38,6 +43,8 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
+
+clr_global_flag = second_italo_ethiopian_war_flag
 
 # RESISTANCE / COMPLIANCE
 

@@ -116,6 +116,70 @@ on_actions = {
 			}
 		}
 	}
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					NOT = {
+						has_tech = basic_train
+
+					}
+					
+				}
+				set_technology = {
+					basic_train = 1
+				} 
+			}
+		}
+	}
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					NOT = {
+						has_tech = tech_trucks
+
+					}
+					
+				}
+				set_technology = {
+					tech_trucks = 1
+				} 
+			}
+		}
+	}
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					NOT = {
+						has_tech = motorised_infantry
+
+					}
+					
+				}
+				set_technology = {
+					motorised_infantry = 1
+				} 
+			}
+		}
+	}
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					NOT = {
+						has_tech = tech_support
+
+					}
+					
+				}
+				set_technology = {
+					tech_support = 1
+				} 
+			}
+		}
+	}
 			
 	
 	

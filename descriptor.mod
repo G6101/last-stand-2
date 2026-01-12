@@ -1,9 +1,9 @@
-version="1.13.4"
+version="1"
 tags={
+	"Alternative History"
+	"Gameplay"
 	"Balance"
-	"Utilities"
+	"National Focuses"
 }
-name="Coring Button"
-picture="thumbnail.png"
-supported_version="1.*"
-remote_file_id="1913968458"
+name="Last Stand Redux"
+supported_version="1.17.3.0"

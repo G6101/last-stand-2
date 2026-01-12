@@ -809,7 +809,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CAN_canada_pacific_railway
+				
 			}
 
 			research_bonus = {

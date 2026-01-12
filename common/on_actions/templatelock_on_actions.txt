@@ -2,7 +2,7 @@ on_actions = {
 	on_startup = {
 		effect = {
 			every_country = {
-				country_lock_all_division_template = no
+				
 				#USSR
 				if = {
 					limit = {
@@ -188,7 +188,7 @@ on_actions = {
 	}
 	on_weekly = {
 		effect = {
-			country_lock_all_division_template = no
+			
 			#"Anti-Exploit Punitive Brigade" is only given to AI
 			if = {
 				limit = {

@@ -2303,51 +2303,7 @@ focus_tree = {
 		relative_position_id = GER_seize_foreign_industries
 		cost = 10
 		available = {
-			all_core_state = {
-				is_fully_controlled_by = ROOT
-			}
-			has_resources_in_collection = {
-				collection = collection:country_and_all_subjects
-				resource = steel
-				amount > 799 #This needs to correspond to the Bypass values in the previous focuses
-				extracted = yes
-			}
-			has_resources_in_collection = {
-				collection = collection:country_and_all_subjects
-				resource = aluminium
-				amount > 199 #This needs to correspond to the Bypass values in the previous focuses
-				extracted = yes
-			}
-			has_resources_in_collection = {
-				collection = collection:country_and_all_subjects
-				resource = oil
-				amount > 149 #This needs to correspond to the Bypass values in the previous focuses
-				extracted = yes
-			}
-			has_resources_in_collection = {
-				collection = collection:country_and_all_subjects
-				resource = tungsten
-				amount > 99 #This needs to correspond to the Bypass values in the previous focuses
-				extracted = yes
-			}
-			has_resources_in_collection = {
-				collection = collection:country_and_all_subjects
-				resource = chromium
-				amount > 99 #This needs to correspond to the Bypass values in the previous focuses
-				extracted = yes
-			}
-			has_resources_in_collection = {
-				collection = collection:country_and_all_subjects
-				resource = rubber
-				amount > 99 #This needs to correspond to the Bypass values in the previous focuses
-				extracted = yes
-			}
-			has_resources_in_collection = {
-				collection = collection:country_and_all_subjects
-				resource = coal
-				amount > 499 #This needs to correspond to the Bypass values in the previous focuses
-				extracted = yes
-			}
+			date > 1941.1.1
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }

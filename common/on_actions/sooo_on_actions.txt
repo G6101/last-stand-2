@@ -121,6 +121,17 @@ on_actions = {
 		effect = {
 			every_country = {
 				limit = {
+					amount_research_slots < 4
+					
+				}
+				set_research_slots = 4
+			}
+		}
+	}
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
 					NOT = {
 						has_tech = basic_train
 

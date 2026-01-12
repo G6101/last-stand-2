@@ -486,14 +486,14 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = {
 						building = industrial_complex
-						size > 1
+						size > 2
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -503,14 +503,14 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = {
 						building = industrial_complex
-						size > 1
+						size > 2
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -520,14 +520,14 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = {
 						building = industrial_complex
-						size > 0
+						size > 2
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -2259,29 +2259,7 @@ focus_tree = {
 			add_ideas = FRA_armament_program
 		}
 	}
-	focus = {
-		id = FRA_intervention_committee
-		icon = GFX_focus_ger_great_red_menace
-		cost = 10
-		prerequisite = {
-			focus = FRA_radicalize_front
-		}
-		x = 14
-		y = 1
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_war = yes
-			}			
-		}
-		completion_reward = {
-			add_ideas = BEL_volunteer_corps
-			#add_ideas = JAP_communist_volunteers
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-	}
+	
 	focus = {
 		id = FRA_work_with_the_cgt
 		icon = GFX_goal_FRA_work_with_the_cgt

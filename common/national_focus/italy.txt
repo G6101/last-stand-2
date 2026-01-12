@@ -3341,7 +3341,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
-			add_timed_idea = { idea = ITA_foggia_farm_fields days = 730 }
+			add_ideas = ITA_foggia_farm_fields
 		}
 	}
 

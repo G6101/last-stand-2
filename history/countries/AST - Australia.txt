@@ -198,7 +198,6 @@ set_party_name = {
 
 add_ideas = {
 	AST_R56_memories_of_gallipoli
-	AST_R56_economy_placeholder
 }
 
 set_politics = {

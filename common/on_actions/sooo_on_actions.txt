@@ -1,6 +1,7 @@
 on_actions = {
     on_startup = {
         effect = {
+			clr_global_flag =  second_italo_ethiopian_war_flag
 		
 		
 			every_country = { 

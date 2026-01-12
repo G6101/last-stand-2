@@ -5313,26 +5313,7 @@ focus_tree = {
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			remove_ideas = POR_unstable_republic
-			IF = {
-				limit = { is_in_faction = yes }
-				leave_faction = yes
-			}
-			set_rule = { can_create_factions = yes }
-			set_rule = { can_join_factions = no }
-
-			every_other_country = {
-				limit = {
-					NOT = { is_puppet_of = ROOT }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = POR_the_fifth_empire_has_threatening_ambitions
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = embargo
-				}
-			}
+			
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 

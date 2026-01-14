@@ -28,7 +28,7 @@ new_mobile_warfare = {
     }
 
     # EFFECTS
-	planning_speed = 0.50
+	planning_speed = 1.00
 	army_speed_factor = 0.30
 	enable_tactic = tactic_unexpected_thrust
 	
@@ -145,10 +145,10 @@ superior_firepower = {
     # EFFECTS
     enable_tactic = tactic_overwhelming_fire
     category_line_artillery = {
-        soft_attack = 0.1
+        soft_attack = 0.20
     }
     category_support_artillery = {
-        soft_attack = 0.05
+        soft_attack = 0.20
     }
 
 
@@ -271,7 +271,7 @@ grand_battleplan = {
     enable_tactic = tactic_planned_attack
     
     max_planning = 0.1
-    command_power_gain = 0.25
+    command_power_gain = 1.00
 
     milestones = {
         {
@@ -381,6 +381,7 @@ mass_assault = {
     # EFFECTS
     no_supply_grace = 48
     out_of_supply_factor = -0.10
+    land_reinforce_rate = 0.05
     enable_tactic = tactic_relentless_assault
     
 

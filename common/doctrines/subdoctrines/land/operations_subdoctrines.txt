@@ -28,7 +28,7 @@ mission_type_tactics = {
     # EFFECTS
     command_power_gain = 0.02
     category_all_infantry = {
-        max_organisation = 15
+        max_organisation = 25
     }
 
     
@@ -42,7 +42,7 @@ mission_type_tactics = {
         }
         flexible_command = {
         #2
-            org_loss_when_moving = -0.15
+            org_loss_when_moving = -0.25
         }
         maneouver_drills = {
         #3
@@ -50,7 +50,7 @@ mission_type_tactics = {
                 default_morale = 0.2
             }
             category_all_armor = {
-                maximum_speed = 0.1
+                maximum_speed = 0.5
             }
             
         }

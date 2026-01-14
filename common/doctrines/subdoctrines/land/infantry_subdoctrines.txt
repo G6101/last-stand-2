@@ -371,8 +371,8 @@ mounted_infantry = {
         }
     }
     category_cavalry = {
-        soft_attack = 0.1
-        breakthrough = 0.1
+        soft_attack = 0.3
+        breakthrough = 0.3
     }
 
     unit_cavalry_design_cost_factor = -1

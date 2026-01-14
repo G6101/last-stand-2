@@ -12555,6 +12555,7 @@ formable_nations_mod_category = {
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			 743 = { add_core_of = ROOT }
 			   596 = { add_core_of = ROOT }
 			   1034 = { add_core_of = ROOT }
 				528 = { add_core_of = ROOT }

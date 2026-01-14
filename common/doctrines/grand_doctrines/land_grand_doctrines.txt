@@ -29,7 +29,7 @@ new_mobile_warfare = {
 
     # EFFECTS
 	planning_speed = 1.00
-	army_speed_factor = 0.30
+	army_speed_factor = 0.35
 	enable_tactic = tactic_unexpected_thrust
 	
 

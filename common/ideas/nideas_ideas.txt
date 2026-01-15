@@ -168,7 +168,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				trade_opinion_factor = 0.25
+				license_production_speed = 0.15
 				#custom_modifier_tooltip = NIDEAS_IDEA_GROUP2_TRADE_AGREEMENT_COST_MODIFIER
 			}
 		}	
@@ -202,8 +202,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				extra_trade_to_overlord_factor = 0.25
-				autonomy_gain_trade_factor = 0.5
+				weekly_manpower = 5000
 				#custom_modifier_tooltip = NIDEAS_IDEA_GROUP2_DEFENSE_AGREEMENT_COST_MODIFIER
 			}
 		}	
@@ -215,12 +214,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				opinion_gain_monthly_factor = 0.5
-				improve_relations_maintain_cost_factor = -0.5
-				communism_acceptance = 100
-				democratic_acceptance = 100
-				fascism_acceptance = 100
-				neutrality_acceptance = 100
+				war_support_weekly = 0.001
 			}
 		}	
 	}
@@ -231,8 +225,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				enemy_justify_war_goal_time = 0.5
-				enemy_declare_war_tension = 0.1
+				production_speed_arms_factory_factor = 0.1
 			}
 		}	
 	}
@@ -266,26 +259,19 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				trade_opinion_factor = 0.25
+				license_production_speed = 0.15
 				#custom_modifier_tooltip = NIDEAS_IDEA_GROUP2_TRADE_AGREEMENT_COST_MODIFIER
 				
 				research_sharing_per_country_bonus_factor = 1.0
 				
 				min_export = -0.05
 				
-				extra_trade_to_overlord_factor = 0.25
-				autonomy_gain_trade_factor = 0.5
+				weekly_manpower = 5000
 				#custom_modifier_tooltip = NIDEAS_IDEA_GROUP2_DEFENSE_AGREEMENT_COST_MODIFIER
 				
-				opinion_gain_monthly_factor = 0.5
-				improve_relations_maintain_cost_factor = -0.5
-				communism_acceptance = 100
-				democratic_acceptance = 100
-				fascism_acceptance = 100
-				neutrality_acceptance = 100
+				war_support_weekly = 0.001
 				
-				enemy_justify_war_goal_time = 0.5
-				enemy_declare_war_tension = 0.1
+				production_speed_arms_factory_factor = 0.1
 			}
 		}
 	}
@@ -296,15 +282,14 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				trade_opinion_factor = 0.25
+				license_production_speed = 0.15
 				custom_modifier_tooltip = NIDEAS_IDEA_GROUP2_TRADE_AGREEMENT_COST_MODIFIER
 				
 				research_sharing_per_country_bonus_factor = 1.0
 				
 				min_export = -0.05
 				
-				extra_trade_to_overlord_factor = 0.25
-				autonomy_gain_trade_factor = 0.5
+				weekly_manpower = 5000
 				custom_modifier_tooltip = NIDEAS_IDEA_GROUP2_DEFENSE_AGREEMENT_COST_MODIFIER
 				
 				justify_war_goal_time = -0.25

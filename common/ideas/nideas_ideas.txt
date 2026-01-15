@@ -6,7 +6,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				drift_defence_factor = 0.25
+				stability_factor = 0.1
 			}
 		}	
 	}
@@ -28,7 +28,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_advisor_cost_factor = -0.20
+				political_power_gain = 0.15
 			}
 		}	
 	}
@@ -50,7 +50,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				democratic_drift = 0.05
+
 				defensive_war_stability_factor = 0.2
 				stability_weekly = 0.001
 			}
@@ -76,7 +76,6 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				democratic_drift = -0.05
 				offensive_war_stability_factor = 0.2
 				war_support_weekly = 0.001
 			}
@@ -102,15 +101,14 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				drift_defence_factor = 0.25
 				
 				party_popularity_stability_factor = 0.10
 				
-				political_advisor_cost_factor = -0.20
+				stability_factor = 0.1
 				
 				#political_power_gain = 0.3
 				
-				democratic_drift = 0.05
+	
 				defensive_war_stability_factor = 0.2
 				stability_weekly = 0.001
 
@@ -118,7 +116,7 @@ ideas = {
 				compliance_growth = 0.1
 				#custom_modifier_tooltip = NIDEAS_IDEA_GROUP1_CORING_COST_MODIFIER
 				
-				political_power_gain = 0.8
+				political_power_gain = 0.95
 			}
 		}
 	}
@@ -129,15 +127,25 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				drift_defence_factor = 0.25
-				
 				party_popularity_stability_factor = 0.10
 				
-				political_advisor_cost_factor = -0.20
+				stability_factor = 0.1
 				
 				#political_power_gain = 0.3
 				
-				democratic_drift = -0.05
+
+
+				#political_power_gain = 0.5
+				compliance_growth = 0.1
+				#custom_modifier_tooltip = NIDEAS_IDEA_GROUP1_CORING_COST_MODIFIER
+				
+				political_power_gain = 0.95
+				
+				party_popularity_stability_factor = 0.10
+				
+				
+				#political_power_gain = 0.3
+				
 				offensive_war_stability_factor = 0.2
 				war_support_weekly = 0.001
 				
@@ -145,7 +153,6 @@ ideas = {
 				resistance_damage_to_garrison = -0.2
 				#custom_modifier_tooltip = NIDEAS_IDEA_GROUP1_BORDER_WAR_COOLDOWN_MODIFIER
 				
-				political_power_gain = 0.8
 			}
 		}	
 	}

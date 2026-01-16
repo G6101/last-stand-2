@@ -4179,8 +4179,6 @@ focus_tree = {
 			focus = FRA_ultimatum_to_belgium
 		}
 		will_lead_to_war_with = BEL
-		will_lead_to_war_with = FLA
-		will_lead_to_war_with = WLL
 		will_lead_to_war_with = HOL
 		will_lead_to_war_with = LUX
 		mutually_exclusive = {
@@ -4190,7 +4188,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		available = {
-			r56_script_i_am_sane = yes
+			
 			is_subject = no
 		}
 		
@@ -4220,7 +4218,6 @@ focus_tree = {
 			}
 			add_state_claim = 42
 			add_state_claim = 51
-			add_state_claim = 1053
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}

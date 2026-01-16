@@ -5180,22 +5180,7 @@ focus_tree = {
 			
 			AST = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}
-					set_state_flag = ENG_uk_australia_focus_1IC
-				}
+				
 				random_owned_controlled_state = {
 					limit = {
 						free_building_slots = {
@@ -5325,22 +5310,7 @@ focus_tree = {
 		completion_reward = {
 			AST = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}
-					set_state_flag = ENG_uk_australia_focus_1IC
-				}
+			
 				random_owned_controlled_state = {
 					limit = {
 						free_building_slots = {
@@ -11452,15 +11422,15 @@ focus_tree = {
 						122 = {
 							free_building_slots = {
 								building = industrial_complex
-								size > 1
+								size > 2
 								include_locked = yes
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -11471,15 +11441,15 @@ focus_tree = {
 						119 = {
 							free_building_slots = {
 								building = industrial_complex
-								size > 1
+								size > 2
 								include_locked = yes
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -11490,15 +11460,15 @@ focus_tree = {
 						338 = {
 							free_building_slots = {
 								building = industrial_complex
-								size > 1
+								size > 2
 								include_locked = yes
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -11514,10 +11484,10 @@ focus_tree = {
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -11703,7 +11673,6 @@ focus_tree = {
 			if = {
 				limit = {
 					OR = {
-						has_idea = partial_economic_mobilisation
 						has_idea = tot_economic_mobilisation 
 						has_idea = war_economy
 					}
@@ -11711,7 +11680,7 @@ focus_tree = {
 				add_political_power = 150
 			}
 			else = {
-				add_ideas = partial_economic_mobilisation
+				add_ideas = war_economy
 			}
 			swap_ideas = {
 				remove_idea = ENG_state_of_the_economy_two

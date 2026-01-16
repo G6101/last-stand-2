@@ -2385,6 +2385,7 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+			add_ideas = arsenal_of_democracy
 			navy_experience = 50
 			army_experience = 50
 			air_experience = 10

@@ -1,6 +1,24 @@
 ideas = {
 
 	country = {
+		arsenal_of_democracy = {
+			name = "Arsenal of Democracy"
+			picture = ARG_economic_reactivation
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
 		great_depression = {
 			picture = usa_great_depression_3
 			

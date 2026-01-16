@@ -213,13 +213,13 @@ on_actions = {
 			every_country = {
 				limit = {
 					NOT = {
-						has_tech = rangers_tech
+						has_tech = rangers
 
 					}
 					
 				}
 				set_technology = {
-					rangers_tech = 1
+					rangers = 1
 				} 
 			}
 		}

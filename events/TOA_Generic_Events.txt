@@ -2678,68 +2678,11 @@ country_event = { #Monroe Doctrine Triggered
 
 	option = { #Demand end of war
 		name = south_american_events.50.a
-		ai_chance = {
-			base = 10
-			modifier = {
-				factor = 0
-				# Shouldn't need this, putting here for safety
-				OR = {
-					is_in_faction_with = FROM
-					has_war_with = FROM.FROM
-				}
-			}
-			modifier = {
-				factor = 10
-				FROM = {
-					OR = {
-						has_government = fascism
-						has_government = communism
-					}
-				}
-			}
-			modifier = {
-				factor = 10
-				FROM.FROM = {
-					has_government = ROOT
-				}
-			}
-		}
-		FROM = {
-			country_event = {
-				id = south_american_events.51
-				days = 5
-				random_days = 3
-			}
-			hidden_effect = { set_country_flag = monroe_aggressor_originator } #this is the originator or the war/aggressor in the conflict
-			set_variable = { monroe_defender = PREV.monroe_defender } #this is the country that is defender in the conflict
-		}
-		FROM.FROM = {
-			country_event = {
-				id = south_american_events.54
-				days = 2
-			}
-		}
-		custom_effect_tooltip = south_american_events_50_war_tt
+		
 	}
 
 	option = { #ignore the issue
 		name = south_american_events.50.b
-		ai_chance = {
-			base = 1
-			modifier = {
-				factor = 10
-				NOT = { has_government = communism }
-				FROM.FROM = {
-					has_government = communism
-				}
-			}
-		}
-		FROM.FROM = {
-			country_event = {
-				id = south_american_events.55
-				days = 2
-			}
-		}
 	}
 }
 

@@ -91,14 +91,14 @@ IF = {
 	limit = {
 		has_dlc = "Gotterdammerung"
 	}
-	give_guarantee = BEL
+	
 }
 
 IF = {
 	limit = {
 		has_dlc = "Graveyard of Empires"
 	}
-	give_guarantee = IRQ
+	
 }
 
 IRQ = {
@@ -334,7 +334,7 @@ if = {
 	complete_national_focus = ENG_vickers_experimental_facility_focus
 	complete_national_focus = ENG_steady_as_she_goes
 
-	give_guarantee = POL
+	
 
 	if = {
 		limit = {

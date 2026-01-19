@@ -119,16 +119,13 @@ track = fighter_aircraft
 
     rewards = {
 		target_prioritization = {
-			air_cas_efficiency = 0.1
+			air_cas_efficiency = 0.05
 		}
 		strafing_runs = {
 			air_cas_present_factor = 0.1
 		}
 		versatile_experience = {
 			air_mission_xp_gain_factor = 0.1
-		}
-        multi_mission_assignment = {
-			air_mission_efficiency = 0.05
 		}
 		night_target_search = {
 			air_night_penalty = -0.1

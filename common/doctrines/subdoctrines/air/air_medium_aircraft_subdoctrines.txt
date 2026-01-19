@@ -198,7 +198,6 @@ air_subdoctrine_tactical_battlefield_support = {
 		}
         logistical_bombing= {
 			army_bonus_air_superiority_factor = 0.05
-			air_cas_efficiency = 0.05
 		}
 		ship_hunters = {
 			category_tac_bomber = {

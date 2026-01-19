@@ -1517,3 +1517,7 @@ LGF_UNIFIED = {
 	color = rgb { 205 69 69 }
 	color_ui = rgb { 205 69 69 }
 }
+GER_germania = {
+	color = rgb { 54 54 54 }
+	color_ui = rgb { 115 115 115 }
+}

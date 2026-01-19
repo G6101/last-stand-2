@@ -1,0 +1,301 @@
+﻿country_event = {
+	id = Germania.1
+	title = czke.447.t
+	desc = czke.447.d
+	picture = GFX_report_event_DEN_fascist_troops
+
+	is_triggered_only = yes
+
+	option = { # Accept
+		name = czke.447.a
+		ai_chance = {
+			base = 100
+			modifier = {
+				add = -25
+				GER = { has_army_size = { size < 40 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = germany.32 }
+		}
+	}
+	option = {
+		name = czke.447.b
+		GER = {
+			country_event = { hours = 2 id = germany.cze }
+		}
+	}
+   
+}
+country_event = {
+	id = france.55
+	title = "Germania demands German lands"
+	desc = "The German government has issued an ultimatum, demanding the return of territories inhabited by ethnic Germans. They claim historical and cultural rights to the region."
+	picture = GFX_report_event_DEN_fascist_troops
+	is_triggered_only = yes
+	option = { # Accept
+		name = "We have no choice"
+		ai_chance = {
+			base = 100
+			modifier = {
+				add = -25
+				GER = { has_army_size = { size < 40 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = germany.38 }
+		}
+	}
+	option = {
+		name = "We will never give in"
+		GER = {
+			country_event = { hours = 2 id = germany.39 }
+		}
+	}
+}
+country_event = {
+	id = france.56
+	title = "Germania demands German lands"
+	desc = "The German government has issued an ultimatum, demanding the return of territories inhabited by ethnic Germans. They claim historical and cultural rights to the region."
+	picture = GFX_report_event_DEN_fascist_troops
+	is_triggered_only = yes
+	option = { # Accept
+		name = "We have no choice"
+		ai_chance = {
+			base = 100
+			modifier = {
+				add = -25
+				GER = { has_army_size = { size < 40 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = germany.32 }
+		}
+	}
+	option = {
+		name = "We will never give in"
+		GER = {
+			country_event = { hours = 2 id = germany.cze }
+		}
+	}
+}
+country_event = {
+	id = france.57
+	title = "Germania demands German lands"
+	desc = "The German government has issued an ultimatum, demanding the return of territories inhabited by ethnic Germans. They claim historical and cultural rights to the region."
+	picture = GFX_report_event_DEN_fascist_troops
+	is_triggered_only = yes
+	option = { # Accept
+		name = "We have no choice"
+		ai_chance = {
+			base = 100
+			modifier = {
+				add = -25
+				GER = { has_army_size = { size < 40 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = germany.33 }
+		}
+	}
+	option = {
+		name = "We will never give in"
+		GER = {
+			country_event = { hours = 2 id = germany.ast }
+		}
+	}
+}
+country_event = {
+	id = germany.ast
+	title = "Austria declines"
+	desc = "Austria denies our claims"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "They will pay"
+		GER = {
+			create_wargoal = {
+				type = take_state
+				target = AUS
+			}
+		}
+	}
+}
+country_event = {
+	id = france.58
+	title = "Germania demands German lands"
+	desc = "The German government has issued an ultimatum, demanding the return of territories inhabited by ethnic Germans. They claim historical and cultural rights to the region."
+	picture = GFX_report_event_DEN_fascist_troops
+	is_triggered_only = yes
+	option = { # Accept
+		name = "We have no choice"
+		ai_chance = {
+			base = 100
+			modifier = {
+				add = -25
+				GER = { has_army_size = { size < 40 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = germany.31 }
+		}
+	}
+	option = {
+		name = "We will never give in"
+		GER = {
+			country_event = { hours = 2 id = germany.pol }
+		}
+	}
+}
+country_event = {
+	id = germany.pol
+	title = "Poland declines"
+	desc = "Poland denies our claims"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "They will pay"
+		GER = {
+			create_wargoal = {
+				type = take_state
+				target = pol
+			}
+		}
+	}
+}
+country_event = {
+	id = france.59
+	title = "Germania demands German lands"
+	desc = "The German government has issued an ultimatum, demanding the return of territories inhabited by ethnic Germans. They claim historical and cultural rights to the region."
+	picture = GFX_report_event_DEN_fascist_troops
+	is_triggered_only = yes
+	option = { # Accept
+		name = "We have no choice"
+		ai_chance = {
+			base = 100
+			modifier = {
+				add = -25
+				GER = { has_army_size = { size < 40 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = germany.34 }
+		}
+	}
+	option = {
+		name = "We will never give in"
+		GER = {
+			country_event = { hours = 2 id = germany.pol }
+		}
+	}
+}
+country_event = {
+	id = germany.pol
+	title = "Belgium declines"
+	desc = "Belgium denies our claims"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "They will pay"
+		GER = {
+			create_wargoal = {
+				type = take_state
+				target = bel
+			}
+		}
+	}
+}
+country_event = {
+	id = france.60
+	title = "Germania demands German lands"
+	desc = "The German government has issued an ultimatum, demanding the return of territories inhabited by ethnic Germans. They claim historical and cultural rights to the region."
+	picture = GFX_report_event_DEN_fascist_troops
+	is_triggered_only = yes
+	option = { # Accept
+		name = "We have no choice"
+		ai_chance = {
+			base = 100
+			modifier = {
+				add = -25
+				GER = { has_army_size = { size < 40 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = germany.37 }
+		}
+	}
+	option = {
+		name = "We will never give in"
+		GER = {
+			country_event = { hours = 2 id = germany.lit }
+		}
+	}
+}
+country_event = {
+	id = germany.lit
+	title = "Lithuania declines"
+	desc = "Lithuania denies our claims"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "They will pay"
+		GER = {
+			create_wargoal = {
+				type = take_state
+				target = lit
+			}
+		}
+	}
+}
+country_event = {
+	id = france.61
+	title = "Germania demands German lands"
+	desc = "The German government has issued an ultimatum, demanding the return of territories inhabited by ethnic Germans. They claim historical and cultural rights to the region."
+	picture = GFX_report_event_DEN_fascist_troops
+	is_triggered_only = yes
+	option = { # Accept
+		name = "We have no choice"
+		ai_chance = {
+			base = 100
+			modifier = {
+				add = -25
+				GER = { has_army_size = { size < 40 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = germany.36 }
+		}
+	}
+	option = {
+		name = "We will never give in"
+		GER = {
+			country_event = { hours = 2 id = germany.den }
+		}
+	}
+}
+country_event = {
+	id = germany.den
+	title = "Denmark declines"
+	desc = "Denmark denies our claims"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "They will pay"
+		GER = {
+			create_wargoal = {
+				type = take_state
+				target = den
+			}
+		}
+	}
+}

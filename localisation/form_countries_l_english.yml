@@ -12,7 +12,9 @@
  FORM_TEMPLATE_democratic_ADJ:0 ""
  FORM_TEMPLATE_neutrality_ADJ:0 ""
  FORM_TEMPLATE_communism_ADJ:0 ""
- #####
+ #####_fascism
+ GER_germania_fascism:0 "Germania"
+ GER_germania_fascism_ADJ:0 "Germans"
  FORM_GMO_fascism:0 "Greater Moravia"
  FORM_GMO_fascism_DEF:0 "Greater Moravia"
  FORM_GMO_democratic:0 "Great Moravia"

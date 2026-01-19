@@ -31,9 +31,6 @@ air_subdoctrine_flying_artillery = {
 	}
 
     rewards = {
-        suppression_runs = {
-        	air_cas_efficiency = 0.1
-        }
         terrain_familiarity = {
 			air_cas_present_factor = 0.1
         }

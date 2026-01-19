@@ -48,8 +48,7 @@ if = {
 			cv_early_fighter = 1
 			early_bomber = 1
 			tactical_bomber1 = 1
-			CAS1 = 1
-			flying_boat = 1
+		
 		}
 	}
 }
@@ -203,10 +202,6 @@ add_breakthrough_progress = {
 country_event = { id = france.103 days = 15 random_days = 5 }		#deflation starts
 country_event = { id = france.103 days = 947 random_days = 30 }		#communists remove support from Popular Front
 
-set_autonomy = {
-	target = FRI
-	autonomy_state = autonomy_integrated_puppet
-}
 
 677 = {
 	start_resistance = yes
@@ -231,11 +226,6 @@ set_autonomy = {
 set_technology = {
 
 	# Extended Technologies
-	etax_doctrine = 1
-	camo = 1
-
-	steel_production_1 = 1
-	aluminum_production_1 = 1
 
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -267,7 +257,6 @@ if = {
 		has_dlc = "Battle for the Bosporus"
 	}
 	set_technology = { camelry = 1 }
-	load_oob = camel_template
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -306,7 +295,6 @@ if = {
 		basic_battery = 1
 		basic_heavy_battery = 1
 		basic_light_battery = 1
-		basic_medium_battery = 1
 		basic_torpedo = 1
 		basic_depth_charges = 1
 		#basic_secondary_battery = 1
@@ -343,8 +331,7 @@ if = {
 		improved_light_tank_chassis = 1
 		basic_heavy_tank_chassis = 1
 		armor_tech_1 = 1
-		r56_gw_railway_gun = 1
-		r56_railway_mortar_subtech = 1
+		
 	}
 }
 
@@ -376,7 +363,7 @@ set_popularities = {
 	communism = 20
 }
 
-add_to_tech_sharing_group = french_research
+
 
 add_ideas = {
 	FRA_victors_of_wwi
@@ -392,11 +379,7 @@ add_ideas = {
 
 give_guarantee = BEL	#Instead of a an event which is meant to always fire - Fantom
 
-diplomatic_relation = {
-    country = MNC
-    relation = docking_rights
-    active = yes
-}
+
 
 if = {
 	limit = { has_dlc = "La Resistance" }
@@ -647,95 +630,8 @@ if = {
 	}
 }
 
-if = {
-	limit = { NOT = { has_dlc = "By Blood Alone" } }
-	create_equipment_variant = {
-		name = "D.500"
-		type = fighter_equipment_0
-		upgrades = {
-			plane_gun_upgrade = 2
-			plane_range_upgrade = 0
-			plane_engine_upgrade = 3
-			plane_reliability_upgrade = 2
-		}
-		obsolete = yes
-		icon = "GFX_FRA_cv_fighter1_medium"
-	}
 
-	create_equipment_variant = {
-		name = "D.510"
-		type = fighter_equipment_0
-		upgrades = {
-			plane_gun_upgrade = 4
-			plane_range_upgrade = 0
-			plane_engine_upgrade = 4
-			plane_reliability_upgrade = 3
-		}
-		icon = "GFX_FRA_cv_fighter1_medium"
-	}
 
-	create_equipment_variant = {
-		name = "Br. 19"
-		type = cas_equipment_0
-		upgrades = {
-			plane_cas_upgrade = 0
-			plane_range_upgrade = 0
-			plane_engine_upgrade = 0
-			plane_reliability_upgrade = 0
-		}
-		obsolete = yes
-		icon = "GFX_TUR_early_bomber_medium"
-	}
-
-	create_equipment_variant = {
-		name = "Potez 25"
-		type = cas_equipment_0
-		upgrades = {
-			plane_cas_upgrade = 2
-			plane_range_upgrade = 1
-			plane_engine_upgrade = 1
-			plane_reliability_upgrade = 1
-		}
-		obsolete = yes
-		icon = "GFX_GEN_bomber_P25_medium"
-	}
-
-	create_equipment_variant = {
-		name = "Latécoère 290"
-		type = nav_bomber_equipment_0
-		upgrades = {
-			plane_naval_upgrade = 1
-			plane_range_upgrade = 0
-			plane_engine_upgrade = 2
-			plane_reliability_upgrade = 3
-		}
-		icon = "GFX_FRA_flying_boat_medium"
-	}
-
-	create_equipment_variant = {
-		name = "PL.7"
-		type = cv_nav_bomber_equipment_0
-		upgrades = {
-			cv_plane_naval_upgrade = 0
-			cv_plane_range_upgrade = 0
-			plane_engine_upgrade = 0
-			plane_reliability_upgrade = 0
-		}
-		icon = "GFX_SWE_early_bomber_medium"
-	}
-
-	create_equipment_variant = {
-		name = "Amiot 143"
-		type = tac_bomber_equipment_0
-		upgrades = {
-			plane_tac_bomb_upgrade = 1
-			plane_range_upgrade = 2
-			plane_engine_upgrade = 2
-			plane_reliability_upgrade = 3
-		}
-		icon = "GFX_FRA_tactical_bomber1_medium"
-	}
-}
 
 ### Ship Variants ###
 # 1936 Start #
@@ -1434,7 +1330,6 @@ if = {
 		parent_version = 0
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
-			fixed_ship_deck_slot_2 = ship_deck_space
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1

@@ -266,18 +266,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			
-			if = {
-				limit = {
-					NOT = {
-						has_idea = r56i_laws_social_hierarchy
-						has_idea = r56i_laws_social_revolutionary
-						has_idea = r56i_laws_social_diversity
-						has_idea = r56i_laws_social_unity
-						has_idea = r56i_laws_social_normal
-					}
-				}
-				add_ideas = r56i_laws_social_normal
-			}
+		
 			if = {
 				limit = {
 					has_active_mission = FRA_the_popular_front
